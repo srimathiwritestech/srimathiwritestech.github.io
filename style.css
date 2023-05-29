@@ -15,6 +15,34 @@ nav ul {
     list-style-type: none;
     background-color: #f1f1f1;
     padding: 10px;
+    .logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
 }
 }
 .container {
