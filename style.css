@@ -22,28 +22,12 @@ nav ul {
 }
 
 .logo img {
-  height: 30px;
+  height: 3px;
   margin-right: 10px;
 }
 
 .logo h1 {
   margin: 0;
-}
-
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.menu li a {
-  text-decoration: none;
-}
 }
 .container {
   width: 100%;
