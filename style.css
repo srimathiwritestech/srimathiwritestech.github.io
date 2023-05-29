@@ -20,9 +20,14 @@ nav ul {
   align-items: center;
   padding: 10px;
 }
+  logo {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
 
 .logo img {
   height: 3px;
+  width: auto 
   margin-right: 3px;
 }
 
