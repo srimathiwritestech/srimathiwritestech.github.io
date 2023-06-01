@@ -1,96 +1,154 @@
-<!Doctype Html>  
-<Html>     
-<Head>       
-  <style>
-    body {
-      text-align: center;
-    }
-  </style>
-<Title>     
-Srimathi writes tech  
-</Title>  
-<style type=text/css>   
-body   
-{  
-height: 125vh;  
-margin-top: 80px;  
-padding: 30px;  
-background-size: cover;  
-font-family: sans-serif;  
-}  
-header {  
-background-color: Grey;  
-position: fixed;  
-left: 0;  
-right: 0;  
-top: 5px;  
-height: 30px;  
-display: flex;  
-align-items: center;  
-box-shadow: 0 0 25px 0 black;  
-}  
-header * {  
-display: inline;  
-}  
-header li {  
-margin: 20px;  
-}  
-header li a {  
-color: black;  
-text-decoration: none;  
-}  
-</style>   
-</Head>  
-<Body>   
-<header>  
-<nav>  
-  <ul> 
-   <li>
-  <div class="logo">
-    <img src="Logo.png" alt="Logo">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Srimathi writes tech</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to my Technical Writing Portfolio</h1>
+  <p>A website created by me.</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Portfolio</a>
+  <a href="#" class="right">Contact</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
   </div>
-   </li>
-  <li>
-    <p style="color: charcoal;""font-family: script;">Srimathi writes tech </p>
-    </li>
-   <li>
-     <a href="index.html">Home</a>
-  </li>    
-  <li>
-     <a href="about.html">About</a>
-  </li>   
- <li>
-     <a href="Portfolio.html">Portfolio</a>
-  </li>     
- <li>
-     <a href="Endorsement.html">Endorsement</a>
-  </li>   
- <li>
-     <a href="contact.html">Contact</a>
-  </li>   
-</ul>  
-</nav>  
-</header>  
-<h1> Welcome to my Technical Writing Portfolio!</h1>
-<p style="color: charcoal;""font-family: sans-serif;">Unfolding writing to build a transparent interface, grasp the comprehensive perception of a user,<br>
-and assist sophisticated product consumption, focusing on the relentless shuffle of words to simplify and augment the user understanding. The organized words<br>
-are formularized to sense, beaten to crisp sentences, disciplined to imply straightforward notions to appease a squandering user during the product operation.<br> 
-Technical writing helps usher the user through intuitive communication predicting the pain points of dwelling in technology. It involes a series of steps to-<br>
-reach the immaculate documentation fed to the end user on the plate. It begins from interaction, research, interpretation, peer and ends with multiple rounds of<br> 
-technical review.<br>
-Befriending the brain behind the development rescues when you fall into trivial doubts while comprehending a feature. The rapport with the<br>
-engineers/developers helps smooth knowledge transfer and a viable environment for clarifications. Standing on the same page as the developers is necessary to<br>
-avoid repetitive rounds of review, as time is precious for everyone! From being a silent listener to an ebullient questioner, the dual-hatted novice-techie is my<br> 
-super point to ponder either aspect before hitting the keyboard.<br>
-A thorough understanding of the feature/product paves the way to adequate results. It demands a lot of reading, research, and appropriate interconnection from<br>
-the developer inputs. It also builds a strong foundation of the subject area and proves advantageous for further documentation.<br>
-Interpreting the inputs and drafts scribbled off the interviews acts as a Kanban board to draw lines to get the whole concept right. It is not a linear graph<br>
-but a roller coaster ride to the quintessential document!<br>
-</p>
-</Body>   
-</Html>  
-<footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-  </footer>
+  <div class="main">
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
 </body>
 </html>
