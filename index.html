@@ -1,123 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Srimathi writes tech</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width:100%;
-  }
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Srimathi R — Technical Writer specializing in AI, developer documentation, migration workflows and documentation UX.">
+  <title>Srimathi R — Technical Writer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="index.html">SR<span>.</span></a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+    <div class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
 
-<div class="header">
-   <img src="Logo.png" alt="Srimathi Writes Tech Logo" style="max-width: 100px;">
-  <h1>Srimathi writes tech</h1>
-  <p>Welcome to my technical writing portfolio!</p>
-</div>
+<main>
+<section class="hero container">
+  <div class="hero-copy">
+    <p class="eyebrow">TECHNICAL WRITER · AI · DEVELOPER EXPERIENCE</p>
+    <h1>I turn complex technology into <em>clear, useful documentation.</em></h1>
+    <p class="lede">I create technical content for enterprise software, AI-driven products and developer workflows — combining technical understanding, information architecture and thoughtful UX.</p>
+    <div class="actions">
+      <a class="button primary" href="work.html">Explore my work <span>→</span></a>
+      <a class="button text-button" href="about.html">About me</a>
+    </div>
+  </div>
+  <div class="hero-note">
+    <div class="note-mark">01</div>
+    <p>Good documentation doesn't simply explain a product. It helps people move forward.</p>
+  </div>
+</section>
 
-<div class="navbar">>
-<a href="Profession.html">Profession</a>
-<a href="Philosophy.html">Philosophy</a>
-<a href="Portfolio.html">Portfolio</a>
-</div>
-    <h2>Hello World!</h2>
-     <p>Thank you for stumbling into my piece of work. Much like my journey to success, this page is a work in progress. Feel free to delve into my Portfolio!<p>
-    
+<section class="intro-band">
+  <div class="container stats">
+    <div><strong>6+</strong><span>years in technical writing</span></div>
+    <div><strong>AI</strong><span>agentic & AI-assisted content</span></div>
+    <div><strong>DX</strong><span>developer experience & docs UX</span></div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="section-heading">
+    <div><p class="eyebrow">SELECTED WORK</p><h2>Documentation with a purpose.</h2></div>
+    <a href="work.html" class="arrow-link">View all work →</a>
+  </div>
+  <div class="work-grid">
+    <a class="project-card featured" href="case-studies/agentic-ai.html">
+      <div class="card-top"><span>01 / AI DOCUMENTATION</span><span>Case study</span></div>
+      <h3>Documenting Agentic AI Workflows</h3>
+      <p>Structuring complex AI-driven workflows into understandable, actionable product documentation.</p>
+      <div class="card-footer">AI · Workflow design · Knowledge architecture <span>↗</span></div>
+    </a>
+    <a class="project-card" href="case-studies/migration-documentation.html">
+      <div class="card-top"><span>02 / MIGRATION</span><span>Case study</span></div>
+      <h3>Making Migration Workflows Clear</h3>
+      <p>Turning multi-step enterprise migration processes into guided documentation.</p>
+      <div class="card-footer">Migration · Task flows · UX <span>↗</span></div>
+    </a>
+    <a class="project-card" href="case-studies/developer-documentation.html">
+      <div class="card-top"><span>03 / DEVELOPER DOCS</span><span>Case study</span></div>
+      <h3>Documentation for Developers</h3>
+      <p>Creating practical content around developer tools, extensions and enterprise software.</p>
+      <div class="card-footer">Developer experience · Guides · Reference <span>↗</span></div>
+    </a>
+    <a class="project-card" href="case-studies/documentation-ux.html">
+      <div class="card-top"><span>04 / DOCUMENTATION UX</span><span>Case study</span></div>
+      <h3>Designing Better Documentation Experiences</h3>
+      <p>Restructuring technical information so users can find what they need with less friction.</p>
+      <div class="card-footer">IA · Content design · Navigation <span>↗</span></div>
+    </a>
+  </div>
+</section>
+
+<section class="quote-section">
+  <div class="container quote">
+    <p>“My work sits between technology, content and user experience.”</p>
+    <span>— Srimathi R</span>
+  </div>
+</section>
+</main>
+
+<footer class="footer container">
+  <span>© 2026 Srimathi R</span>
+  <div><a href="work.html">Work</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
